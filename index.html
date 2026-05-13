@@ -201,11 +201,15 @@ nav {
 }
 
 .hero-logo-img {
-  max-width: 600px;
-  width: 90%;
-  margin: 0 auto 1.5rem;
+  max-width: 720px;
+  width: 95%;
   display: block;
-  filter: drop-shadow(6px 6px 0px rgba(0,0,0,0.5));
+  margin: 2rem auto 2.5rem auto;
+
+  filter:
+    drop-shadow(0 8px 0 rgba(0,0,0,0.45))
+    drop-shadow(0 20px 35px rgba(0,0,0,0.35));
+
   animation: logoDrop 0.8s 0.5s both cubic-bezier(0.175,0.885,0.32,1.275);
 }
 @keyframes logoDrop {
@@ -928,13 +932,17 @@ footer {
   <div class="burst burst-4" style="--r:20deg">✨ WOW!</div>
 
   <div class="hero-content">
-    <div class="hero-badge">★ KYLE, TX'S #1 COMIC BOOK DESTINATION ★</div>
-    <img
-      src="/mnt/user-data/uploads/1778650554589_image.png"
-      alt="Grand Central Comics — Where Heroes Meet"
-      class="hero-logo-img"
-    />
-    <p class="hero-tagline">Your Universe of Comics, Collectibles &amp; More!</p>
+  <div class="hero-badge">★ KYLE, TX'S #1 COMIC BOOK DESTINATION ★</div>
+
+  <img
+    src="GrandCentralLogo.png"
+    alt="Grand Central Comics Logo"
+    class="hero-logo-img"
+  />
+
+  <p class="hero-tagline">
+    Your Universe of Comics, Collectibles &amp; More!
+  </p>
     <div class="hero-actions">
       <a href="#contact" class="btn-comic btn-primary-comic">📍 Get Directions</a>
       <a href="#services" class="btn-comic btn-secondary-comic">🦸 Explore the Shop</a>
